@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+  <title>Greg's Gambits</title>
+  <link href="css/greg.css" rel="stylesheet" type="text/css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script type="text/javascript" src="js/magicSquare.js"></script>
+  
+</head>
+
+<body>
+  <div id="container">
+
+    <img src="images/superhero.jpg" width="120" height="120" class="floatleft" />
+    <h1 id="logo"><em>Greg's Gambits </em></h1>
+
+    <h2 align="center"><em> Games for Everyone!</em></h2>
+
+    <p>&nbsp;</p>
+    <div id="nav">
+      <p><a href="index.html">Home</a>
+        <a href="greg.html">About Greg</a>
+        <a href="play_games.html">Play a Game</a>
+        <a href="sign.html">Sign In</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="aboutyou.html">Tell Greg About You</a>
+        <a href="sign_up.html">Sign up Now!</a></p>
+
+    </div>
+    <div id="content">
+        <p>This page will allow the user to fill a 4 X 4 table with numbers and it will check to see if those numbers form a magic square. A magic square exists when all the rows, columns, and diagonals of a nXn square add up to the same number.</p>
+        <p><input type ="button" onclick="magicSquare()" value = "Enter your numbers"></p>
+        <table width = "60%" align = "center" border = "1">
+        <tr>
+          <td height = "60" width = "25%"><span id = "cell00" />&nbsp;</td>
+        <td width = "25%"><span id = "cell01" />&nbsp;</td>
+        <td width = "25%"><span id = "cell02" />&nbsp;</td>
+        <td width = "25%"><span id = "cell03" />&nbsp;</td>
+        </tr> <tr>
+        <td height = "60"><span id = "cell10" />&nbsp;</td>
+        <td><span id = "cell11" />&nbsp;</td>
+        <td><span id = "cell12" />&nbsp;</td>
+        <td><span id = "cell13" />&nbsp;</td>
+        </tr> <tr>
+        <td height = "60"><span id = "cell20" />&nbsp;</td>
+        <td><span id = "cell21" />&nbsp;</td>
+        <td><span id = "cell22" />&nbsp;</td>
+        <td><span id = "cell23" />&nbsp;</td>
+        </tr> <tr>
+        <td height = "60"><span id = "cell30" />&nbsp;</td>
+        <td><span id = "cell31" />&nbsp;</td>
+        <td><span id = "cell32" />&nbsp;</td>
+        <td><span id = "cell33" />&nbsp;</td>
+        </tr><tr><td colspan = "4"><p><input type ="button" onclick="checkIt()" value = "Check if you've entered a magic square"></p></td></tr>
+        <tr><td> Result:</td> <td colspan = "3" id ="result">&nbsp;</td></tr>
+        </table>
+        </div>
+    </div>
+    <div id="footer">Copyright &copy; 2013 Greg's Gambits<br />
+      <a href="mailto:ibrahim.atagayev@triosstudent.com">Ibrahim Atagayev</a><br>
+      <p><a href="http://triosdevelopers.com/~I.Atagayev/">SITEMAP</a></p>
+    </div>
+
+  </div>
+</body>
+
+</html>

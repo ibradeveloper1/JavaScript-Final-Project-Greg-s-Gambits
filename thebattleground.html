@@ -1,0 +1,66 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Troll Battle">
+<title>Greg's Gambits | The Battleground</title>
+  <link href="css/greg.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="js/thebattleground.js"></script>
+
+<style type="text/css">
+
+</style>
+</head>
+
+<body>
+  <div id="container">
+    <img src="images/superhero.jpg" width="120" height="120" class="floatleft" />
+    <h1 align="center">The Battleground</h1>
+    <div style ="clear:both;"></div>  
+    <div id="nav">
+      <p><a href="index.html">Home</a>
+      <a href="greg.html">About Greg</a>
+      <a href="play_games.html">Play a Game</a>
+      <a href="sign.html">Sign In</a>
+      <a href="contact.html">Contact Us</a></p>
+    </div>
+    <div id="content">
+      <table width = "85%" cellpadding="5" cellspacing="0" border = "0">
+        <tr>
+          <td><img src="images/wizard.jpg" width="120" height="168" /></td>
+          <td><img src="images/troll.jpg" width="120" height="168" /></td>
+        </tr>
+        <tr>
+          <td><span class="style1">Wizard uses: </span></td>
+          <td><span class="style1">Troll uses: </span></td>
+        </tr>
+        <tr>
+          <td id = "playerWeapon" span class="style1">Weapon goes here</span></td>
+          <td id = "trollWeapon" span class="style1">Weapon goes here</span></td>
+        </tr>
+        <tr>
+          <td colspan = 2><span class="style1">The winner is:</span></td>
+        </tr>
+        <tr>
+          <td colspan = 2 id="winner" align = "center" class="style1">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><span class="style1">Wizard points: </span></td> 
+          <td><span class="style1">Troll points:</span></td>
+        </tr>  
+        <tr>
+          <td class="style1" id = "heroPts">100</td> <td class="style1" id = "trollPts">100</td>
+        </tr>
+        <tr>
+          <td><input type="button" id="battle" value="Let the battle begin!" onclick="battleIt()"; /></td>
+          <td><input type="button" id="return" value="Return to battle instructions" onclick="location.href = 'gregs_battle.html'"; /></td>
+        </tr>
+      </table>
+    </div>    
+    <div id="footer">Copyright &copy; 2013 Greg's Gambits<br>
+      <a href="mailto:ibrahim-atagayev@hotmail.com">ibrahim-atagayev@hotmail.com</a>
+    </div>
+  </div>
+</body>
+</html>

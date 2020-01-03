@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+    <title>Greg's Gambits</title>
+    <link href="css/greg.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="js/lotteryGame.js"></script>
+
+    
+</head>
+
+<body>
+    <div id="container">
+
+        <img src="images/superhero.jpg" width="120" height="120" class="floatleft" />
+        <h1 id="logo"><em>Greg's Gambits </em></h1>
+
+        <h2 align="center"><em> Games for Everyone!</em></h2>
+
+        <p>&nbsp;</p>
+        <div id="nav">
+            <p><a href="index.html">Home</a>
+                <a href="greg.html">About Greg</a>
+                <a href="play_games.html">Play a Game</a>
+                <a href="sign.html">Sign In</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="aboutyou.html">Tell Greg About You</a>
+                <a href="sign_up.html">Sign up Now!</a></p>
+
+        </div>
+        <div id="content">
+            <div style="width: 700px; margin: auto; margin-top: 100px; border: 1px solid black; padding: 5px;">
+                <p> Chapter 9: Programming Challenge 1 </p>
+                <p>This page will generate a lottery number consisting of 6 numbers from 1 to 40 (inclusive). It will
+                    allow the user to "buy" a lottery ticket with 6 numbers chosen by the user. Then it will check to
+                    see how much, if anything, the user won. Winnings are assigned as follows:</p>
+                <table width="40%" align="center" border="1">
+                    <tr>
+                        <td height="30" width="50%">0 matches</td>
+                        <td width="50%">nothing</td>
+                    </tr>
+                    <tr>
+                        <td height="30" width="50%">1 match</td>
+                        <td width="50%">nothing</td>
+                    </tr>
+                    <tr>
+                        <td height="30" width="50%">2 matches</td>
+                        <td width="50%">nothing</td>
+                    </tr>
+                    <tr>
+                        <td height="30" width="50%">3 matches</td>
+                        <td width="50%"> $ 5.00</td>
+                    </tr>
+                    <tr>
+                        <td height="30" width="50%">4 matches</td>
+                        <td width="50%"> $ 50.00</td>
+                    </tr>
+                    <tr>
+                        <td height="30" width="50%">5 matches</td>
+                        <td width="50%"> $ 100.00</td>
+                    </tr>
+                    <tr>
+                        <td height="30" width="50%">6 matches</td>
+                        <td width="50%"> $ 100,000.00</td>
+                    </tr>
+                </table>
+                <p><input type="button" onclick="enterNums()" value="Enter your numbers"><br />
+                    You selected:<div id="your_nums">&nbsp;</div><br />
+                    <input type="button" onclick="getLottery()" value="Check today's lottery numbers"><br />
+                    Today's numbers:<div id="lottery_nums">&nbsp;</div><br />
+                    Your winnings:<div id="your_win">&nbsp;</div>
+                </p>
+            </div>
+        </div>
+        <div id="footer">Copyright &copy; 2013 Greg's Gambits<br />
+            <a href="mailto:ibrahim.atagayev@triosstudent.com">Ibrahim Atagayev</a><br>
+            <p><a href="http://triosdevelopers.com/~I.Atagayev/">SITEMAP</a></p>
+        </div>
+
+    </div>
+</body>
+
+</html>

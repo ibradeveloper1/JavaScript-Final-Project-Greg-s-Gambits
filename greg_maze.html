@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+	<title>Greg's Gambits | Greg's Maze</title>
+	<link href="css/greg.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/greg_maze.js"></script>
+	
+</head>
+
+<body onload="setup()">
+
+	<div id="container">
+
+		<img src="images/superhero.jpg" class="floatleft" />
+		<h1 id="logo"><em>Greg's Maze</em></h1>
+		<p>&nbsp;</p>
+
+		<div id="nav">
+			<p><a href="index.html">Home</a>
+				<a href="greg.html">About Greg</a>
+				<a href="play_games.html">Play a Game</a>
+				<a href="sign.html">Sign In</a>
+				<a href="contact.html">Contact Us</a>
+				<a href="aboutyou.html">Tell Greg About You</a>
+				<a href="sign_up.html">Sign up Now!</a></p>
+		</div>
+
+		<div id="content">
+			<p> Traverse the maze of blue blocks, as the hero, to rescue the princess! You can do this by landing in the cell
+				where she is located. Click on the blue block where you want to move your hero. You can only move one cell at a
+				time. When you encounter a roadblock choose blue cell,in which, to move the hero.
+
+
+				<table width="60%" align="center">
+					<tr>
+						<td height="60"><span onclick="doClick(0,0)" id="cell00" />&nbsp;</td>
+						<td><span onclick="doClick(0,1)" id="cell01" />&nbsp;</td>
+						<td><span onclick="doClick(0,2)" id="cell02" />&nbsp;</td>
+						<td><span onclick="doClick(0,3)" id="cell03" />&nbsp;</td>
+					</tr>
+					<tr>
+						<td height="60"><span onclick="doClick(1,0)" id="cell10" />&nbsp;</td>
+						<td><span onclick="doClick(1,1)" id="cell11" />&nbsp;</td>
+						<td><span onclick="doClick(1,2)" id="cell12" />&nbsp;</td>
+						<td><span onclick="doClick(1,3)" id="cell13" />&nbsp;</td>
+					</tr>
+					<tr>
+						<td height="60"><span onclick="doClick(2,0)" id="cell20" />&nbsp;</td>
+						<td><span onclick="doClick(2,1)" id="cell21" />&nbsp;</td>
+						<td><span onclick="doClick(2,2)" id="cell22" />&nbsp;</td>
+						<td><span onclick="doClick(2,3)" id="cell23" />&nbsp;</td>
+					</tr>
+					<tr>
+						<td height="60"><span onclick="doClick(3,0)" id="cell30" />&nbsp;</td>
+						<td><span onclick="doClick(3,1)" id="cell31" />&nbsp;</td>
+						<td><span onclick="doClick(3,2)" id="cell32" />&nbsp;</td>
+						<td><span onclick="doClick(3,3)" id="cell33" />&nbsp;</td>
+					</tr>
+
+				</table>
+		</div>
+		<div id="footer">Copyright &copy; 2013 Greg's Gambits
+			<a href="mailto:gregory@gambits.net">gregory@gambits.net</a></div>
+
+
+</body>
+
+</html>
